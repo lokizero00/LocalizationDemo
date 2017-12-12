@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  LocalizationDemo
+
+  Created by lokizero00 on 2017/12/12.
+  Copyright © 2017年 lokizero00. All rights reserved.
+ 
+ 这里的CFBundleDisplayName是info.plist中对应的app的名称，需要在iphone中修改对应的语言才能看到效果
+*/
+"CFBundleDisplayName" = "本地化案例";

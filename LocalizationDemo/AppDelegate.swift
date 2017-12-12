@@ -16,8 +16,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        createTabBarController()
         return true
+    }
+    
+    func createTabBarController(){
+        var tabBarItemImage=UIImage(named: "barIcon")
+        tabBarItemImage=tabBarItemImage?.withRenderingMode(.alwaysOriginal)
+        
+        self.window=UIWindow(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor=UIColor.white
+        
+        let tabBarController=UITabBarController()
+        self.window?.rootViewController=tabBarController
+        
+        let localizationCtl=LocalizationViewController(nibName: "LocalizationViewController", bundle: Bundle.main)
+        let localizationNav=UINavigationController(rootViewController: localizationCtl)
+        
+        //调用NSLocalizedString实现加载本地化的字符串
+        localizationNav.title=NSLocalizedString("TabBarItemName", comment: "TabBarItemName")
+        localizationNav.tabBarItem.image=tabBarItemImage
+        tabBarController.addChildViewController(localizationNav)
+        
+        self.window?.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  LocalizationDemo
+
+  Created by lokizero00 on 2017/12/12.
+  Copyright © 2017年 lokizero00. All rights reserved.
+*/
+"TabBarItemName" = "Localization";
+"NavigationTitle" = "Localization";
