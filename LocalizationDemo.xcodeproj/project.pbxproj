@@ -21,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120BC5861FE10CF4005198E8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/LocalizationViewController.xib"; sourceTree = "<group>"; };
+		120BC5871FE10CF9005198E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LocalizationViewController.xib; sourceTree = "<group>"; };
 		12D5538E1FDFC16C00F34970 /* LocalizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D553911FDFC16C00F34970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12D553931FDFC16C00F34970 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,8 +41,6 @@
 		12D553C21FDFC5C400F34970 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/pic.png; sourceTree = "<group>"; };
 		12D553C41FDFC5C700F34970 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/pic.png"; sourceTree = "<group>"; };
 		12D553C51FDFC67300F34970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LocalizationViewController.xib; sourceTree = "<group>"; };
-		12D553C71FDFC6B400F34970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizationViewController.strings; sourceTree = "<group>"; };
-		12D553C91FDFC6B900F34970 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LocalizationViewController.strings"; sourceTree = "<group>"; };
 		12D553CA1FDFC70500F34970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/pic.png; sourceTree = "<group>"; };
 		12D553CB1FDFC71400F34970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		12D553CF1FDFC78000F34970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -222,8 +222,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				12D553C51FDFC67300F34970 /* Base */,
-				12D553C71FDFC6B400F34970 /* en */,
-				12D553C91FDFC6B900F34970 /* zh-Hans */,
+				120BC5861FE10CF4005198E8 /* zh-Hans */,
+				120BC5871FE10CF9005198E8 /* en */,
 			);
 			name = LocalizationViewController.xib;
 			sourceTree = "<group>";
